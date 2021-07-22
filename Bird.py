@@ -4,6 +4,8 @@ import os
 # coordinate system is top left which is (0,0)
 class Bird:
     BIRD_IMAGES = [pygame.transform.scale2x(pygame.image.load(os.path.join("images", "bird1.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("images", "bird2.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("images", "bird3.png")))]
+    #BIRD_IMAGES = [pygame.transform.scale2x(pygame.image.load(os.path.join("images", "thug_life.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("images", "thug_life.png"))), pygame.transform.scale2x(pygame.image.load(os.path.join("images", "thug_life.png")))]
+
     MAX_ROTATION = 25
     ROTATION_VELOCITY = 20
     TERMINAL_VELOCITY = 16
